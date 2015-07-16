@@ -60,16 +60,23 @@ body {
   line-height: 27px;
   color: #6D6D6D;
 }
+.post__content img {
+	width: 200px;
+	margin: 10px;
+}
 @media (max-width: 600px) {
 	.post__content {
 		position:relative;
 		margin-left: auto;
 		margin-right:auto;
+		width:100%;
 	}
-}
-.post__content img {
-	width: 200px;
-	margin: 10px;
+	.post__content img {
+		width: 100%;
+	}
+	.post__header {
+		width:100%
+	}
 }
 .post__content img.left {
 	float: left;
